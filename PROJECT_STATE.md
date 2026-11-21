@@ -1,5 +1,32 @@
 # PiCar-X V4 + Raspberry Pi 5 — Project State
 
+## Update — 2026-11-21
+
+### DONE
+- M3: PiCar-X V4 mechanical assembly completed.
+- M2: Raspberry Pi 5 (8 GB), Raspberry Pi OS Debian 13 (Trixie), 128 GB microSD, network and Python operational.
+- M4: Robot HAT V4 (01902V44), battery power, steering, camera servos and both motors tested successfully.
+- M4: Custom motor calibration helper created and independently tested.
+- M5: Forward/reverse movement, steering, stop, keyboard control, ultrasonic sensor, grayscale sensor and camera working.
+- GitHub repository and initial commit completed.
+
+### Software Baseline
+- Python: 3.13.5
+- picar-x: 2.1.0a1
+- robot_hat: 2.5.8
+- vilib: 0.3.20
+
+### IN PROGRESS
+- M5: Preserve the first working software and hardware baseline.
+
+### NEXT
+- Commit updated project status.
+- Create GitHub release v0.1.0.
+
+### BLOCKED
+- No reported blocker to the completed basic robot functions.
+- MediaPipe and AI Edge LiteRT were skipped during Vilib installation due to platform compatibility.
+
 **Version:** 0.3 · **Management approval:** 2026-11-20 · **Operating rules:** PACE v4.0  
 **Technical roadmap:** `ROADMAP.md` v2.2 · **Language:** English only  
 **Purpose:** A short, trusted record of progress. User-reported status is authoritative; no proof, audit or checklist is required.
